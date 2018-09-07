@@ -14,9 +14,24 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0">Neighborhood Map</a>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Search...">
+        </nav>
         <div class="container-fluid">
-            <h3>Neighborhood Map</h3>
-            <div id="map"></div>
+            <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <main id="map"></main>
         </div>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsCHE3eWxPBHSaWgd9F2HnIp1-m-mCanM&callback=initMap" type="text/javascript"></script>

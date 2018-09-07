@@ -4,12 +4,12 @@ var bounds;
 
 function initMap() {
     var Seattle = {
-        lat: 47.608013,
-        lng: -122.335167
+        lat: 47.639286,
+        lng: -122.341792
     };
 
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 3,
+        zoom: 13,
         center: Seattle,
         mapTypeControl: false
     });
