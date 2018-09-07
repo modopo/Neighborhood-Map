@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #fafafa;
-    color: ghostwhite;
+    color: black;
 }
 
 p {
@@ -24,6 +24,10 @@ ul ul a {
     background: #6d7fcc;
 }
 
-.navbar_width {
-    min-width: 300px;
+#map {
+    bottom: 0px;
+    height: 100%;
+    left: 362px;
+    position: absolute;
+    right: 0px;
 }
