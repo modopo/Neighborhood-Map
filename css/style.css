@@ -7,13 +7,14 @@ body {
 #map {
     bottom: 0px;
     height: 100%;
-    left: 300px;
+    left: 0px;
     position: absolute;
     right: 0px;
+    z-index: -1;
 }
 
 .sidebar-sticky {
     top: 0;
-    height: calc(100vh - 48px);
-    padding-top: 48px;
+    height: 100vh;
+    padding-top: 65px;
 }
